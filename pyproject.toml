@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-ecommerce"
+version = "0.1.0"
+description = ""
+authors = ["Ruhin Shukurlu <ruhinshukurlu@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "django_ecommerce"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
